@@ -1,0 +1,34 @@
+#更换Google字体库为360公共前端库
+
+---
+
+##查找使用Google字体库的文件
+
+可以nodebb目录下使用命令grep -r -l "googleapis" * 查找出所有包含Google字体库链接的文件，
+对于默认主题来说只需要更改`nodebb/node_modules/nodebb-theme-persona/less/style.less`文件里面的链接即可。
+
+##替换链接
+
+以下摘录[360公共前端库](http://libs.useso.com/ "360公共前端库")的说明：
+
+>* 首先在程序源代码中找到调用Google免费字体库的地址，比如：
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
+
+>* 将Google免费字体库的域名 fonts.googleapis.com 修改为：fonts.useso.com 即可，如下所示：
+ 
+	<link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
+
+##重启NodeBB
+
+改完后重启nodebb就能生效。
+
+##测试效果
+
+按下F12然后Ctrl+F5刷新页面，在Sources一栏里就能看到fonts.googleapis.com已经变成了fonts.useso.com。在Network一栏里搜font，点击一下也能看到字体链接不再是fonts.gstatic.com而是fontstatic.useso.com。
+
+##附录
+
+下面这个链接是官方论坛里一个类似的问题，但是所用的主题是lavender
+
+https://community.nodebb.org/topic/2178/i-want-to-remove-the-google-fonts-link-what-shoud-i-do/6
