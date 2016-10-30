@@ -13,7 +13,9 @@
 ##正在使用NodeBB的论坛
 
 ###[萌梦社区](http://qtdream.com/ "萌梦社区")
-###[Minecraft Lightweight](http://mc.soaryun.com/ "Minecraft Lightweight")
-###[intio.org](http://intio.org/ "intio.org")
 ###[EFL Club 英语学习论坛](http://forum.eflclub.me/ "EFL Club")
+###[学院](http://xueyuan.me "学院")
+###[Minecraft Lightweight](http://mc.soaryun.com/ "Minecraft Lightweight")
+###[Widora](http://sns.widora.io "Widora")
+###[intio.org](http://intio.org/ "intio.org")
 ###如果您也在使用NodeBB程序，您可以直接提交Pull Requests来补充。
