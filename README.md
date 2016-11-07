@@ -19,3 +19,9 @@
 ###[Widora](http://sns.widora.io "Widora")
 ###[intio.org](http://intio.org/ "intio.org")
 ###如果您也在使用NodeBB程序，您可以直接提交Pull Requests来补充。
+
+## nodebb官方论坛
+
+### https://community.nodebb.org/
+### 安装文档 https://docs.nodebb.org/en/latest/
+### github：https://github.com/NodeBB/NodeBB
