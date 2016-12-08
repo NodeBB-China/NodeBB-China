@@ -18,6 +18,7 @@
 ###[Minecraft Lightweight](http://mc.soaryun.com/ "Minecraft Lightweight")
 ###[Widora](http://sns.widora.io "Widora")
 ###[intio.org](http://intio.org/ "intio.org")
+###[自由职业者社区](https://v2mm.tech/categories/ "v2mm")
 ###如果您也在使用NodeBB程序，您可以直接提交Pull Requests来补充。
 
 ## nodebb官方论坛
