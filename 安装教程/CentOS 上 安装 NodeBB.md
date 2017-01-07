@@ -60,3 +60,14 @@ service mongod start
 ```
 
 > 参考资料：https://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/#install-mongodb-community-edition
+
+## Node.js 篇
+
+这个不详细讲了，[下载LTS版本](https://nodejs.org/en/download/)（为了安全稳定）的**二进制包**即可（无需编译），解压之后将超长目录重命名为 `node` 并整个移动到 `/usr/local/` 目录下。
+
+在/etc/profile里追加一行并更新环境变量*（Linux 基础知识不作解释）*：
+
+```
+echo export PATH=$PATH:/usr/local/node/bin >> /etc/profile
+source /etc/profile
+```
