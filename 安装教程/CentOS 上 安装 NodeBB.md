@@ -137,3 +137,93 @@ service mongod restart
 > 
 > https://docs.mongodb.org/manual/administration/configuration/#security-considerations
 
+## 初始化 NodeBB
+
+使用如下命令开始初始化：
+
+```
+node app --setup开始设置
+```
+**注意事项：**
+
+* `URL used to access this NodeBB` 这个问题填写域名http://www.xxx.com（别漏下 `http` 前缀，域名末尾不加 `/`）
+* 另外，NodeBB会默认监听本地端口 `4567`，我们后面还要使用 `nginx` 转发 `80` 端口的请求到 `4567` 端口。
+* 中间还有两次需要回答问题 `Which database to use`，
+第一次是回答数据库程序名 `mongo`，第二次回答所创建的数据库名 `nodebb`
+* 这些回答都将被写入 NodeBB 的配置文件config.json，如果答错了可以随后手动修改
+
+**极度重要！**
+
+* 注意第一个问题所回答的 URL 将会作为之后邀请链接的网址，我们设成了 `http://www.xxx.com`，那么邀请连接就是 `http://www.xxx.com/register`
+* 同时注意末尾别加斜杠，否则邀请链接里多一个斜杠成了 `http://xxx//register`
+* 也不要加端口，不然邀请链接里包含 `4567` 端口（`http://www.xxx.com:4567/register`），而4567端口是不对外开放的！
+
+## Nginx 篇
+
+### 安装 Nginx
+
+创建文件 `/etc/yum.repos.d/nginx.repo` 并写入以下信息：
+
+```
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/centos/6/x86_64/
+gpgcheck=0
+enabled=1
+```
+
+然后开始安装：
+
+```
+yum install nginx.x86_64
+```
+
+> 参考资料：
+> 
+> https://docs.nodebb.org/en/latest/configuring/proxies/nginx.html
+
+### 配置 Nginx
+
+打开 `/etc/nginx/nginx.conf`，在 `http` 语句块内追加上：
+
+```
+##########################################
+server {
+    listen 80;
+
+    server_name www.xxx.com; # 你的域名
+
+    location / {
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-NginX-Proxy true;
+
+        proxy_pass http://127.0.0.1:4567/;
+        proxy_redirect off;
+
+        # Socket.IO Support
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+    
+    # Config 502 page.
+
+    error_page 502 /502.html;
+
+    location = /502.html {
+        root /usr/share/nginx/html;
+        internal;
+    }
+}
+##########################################
+```
+### 启动 Nginx
+
+最后启动 Nginx：
+
+```
+service nginx start
+```
+
