@@ -12,7 +12,7 @@
 
 [EFL Club 英语学习论坛](http://forum.eflclub.me/ "EFL Club")
 
-[学院](http://xueyuan.me "学院")
+[羊毛界](http://yangmaoji.com "羊毛界")
 
 [Minecraft Lightweight](http://mc.soaryun.com/ "Minecraft Lightweight")
 
