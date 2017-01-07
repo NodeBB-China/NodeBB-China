@@ -227,3 +227,45 @@ server {
 service nginx start
 ```
 
+## 正式运行NodeBB
+
+### 简单的启动
+
+运行以下命令启动 NodeBB：
+
+```
+./nodebb start
+```
+
+至此，你的论坛已经完成。
+
+### 高级管理
+
+为了更好的管理 NodeBB 的运行，推荐使用 `forever` 这个工具自动后台运行 NodeBB。
+
+#### 安装 forever
+
+```
+npm install forever -g # 这里必须加-g参数，不然可能装不上
+```
+> 装完后 `forever` 后，其可执行程序位于 Node.js 安装目录的 `bin` 子目录里，我们此前已经把整个 `bin` 目录加入 `PATH` 变量了。
+
+#### 管理 NodeBB 进程
+
+后台启动 NodeBB：
+
+```
+forever start app.js
+```
+
+停止 NodeBB：
+
+```
+forever stop app.js
+```
+
+查看后台的 NodeBB：
+
+```
+forever list
+```
