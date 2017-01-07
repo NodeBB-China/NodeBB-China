@@ -26,15 +26,16 @@
 
 ## 项目内容索引
 
-|目录|类型|
-| ------ | ------ |
-|－[优化设置](优化设置/)|原创|
-|　├[将Google字体库替换为360公共前端库（已废弃）](优化设置/将Google字体库替换为360公共前端库.md)|原创|
-|　├[设置widgets](优化设置/设置widgets.md)|原创|
-|－[系统备份与监控](系统备份与监控/)|原创|
-|　├[数据库备份与恢复](系统备份与监控/数据库备份与恢复.md)|原创|
-|－[官方教程翻译](官方教程翻译/)|翻译|
-|　├[待补充](官方教程翻译/)|翻译|
+|目录|作者|类型|
+| ------ | :------:| ------ |
+|－ [安装教程](安装教程/)|——||原创|
+|　├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS + NodeBB + MongoDB.md)|[@hao-lee](https://github.com/hao-lee)|原创|
+|　├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS + NodeBB + Redis.md)|[@gaokaigithub](https://github.com/gaokaigithub)|原创|
+|－ [优化设置](优化设置/)|——|原创|
+|　├ [设置widgets](优化设置/设置widgets.md)|[@gaokaigithub](https://github.com/gaokaigithub)|原创|
+|　├ [将Google字体库替换为360公共前端库（已废弃）](优化设置/将Google字体库替换为360公共前端库.md)|[@hao-lee](https://github.com/hao-lee)|原创|
+|－ [系统备份与监控](系统备份与监控/)|——|原创|
+|　├ [数据库备份与恢复](系统备份与监控/数据库备份与恢复.md)|[@hao-lee](https://github.com/hao-lee)|原创|
 
 
 ## 项目贡献
