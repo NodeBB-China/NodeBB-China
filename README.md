@@ -26,16 +26,17 @@
 
 ## 项目内容索引
 
-|目录|作者|类型|
-| ------ | :------:| ------ |
-|－ [安装教程](安装教程/)|——||原创|
-|　├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS + NodeBB + MongoDB.md)|[@hao-lee](https://github.com/hao-lee)|原创|
-|　├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS + NodeBB + Redis.md)|[@gaokaigithub](https://github.com/gaokaigithub)|原创|
-|－ [优化设置](优化设置/)|——|原创|
-|　├ [设置widgets](优化设置/设置widgets.md)|[@gaokaigithub](https://github.com/gaokaigithub)|原创|
-|　├ [将Google字体库替换为360公共前端库（已废弃）](优化设置/将Google字体库替换为360公共前端库.md)|[@hao-lee](https://github.com/hao-lee)|原创|
-|－ [系统备份与监控](系统备份与监控/)|——|原创|
-|　├ [数据库备份与恢复](系统备份与监控/数据库备份与恢复.md)|[@hao-lee](https://github.com/hao-lee)|原创|
+| 目录                                       |                    作者                    | 类型   |
+| ---------------------------------------- | :--------------------------------------: | ---- |
+| － [安装教程](安装教程/)                          |                    ——                    |      |
+| ├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS + NodeBB + MongoDB.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
+| ├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS + NodeBB + Redis.md) | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
+| － [优化设置](优化设置/)                          |                    ——                    | 原创   |
+| ├ [设置 widgets](优化设置/设置widgets.md)        | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
+| ├ [将 Google 字体库替换为 360 公共前端库](优化设置/将Google字体库替换为360公共前端库.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
+| ├ [海外 VPS 如何提升 NodeBB 访问速度](优化设置/海外 VPS 如何提升 NodeBB 访问速度.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
+| － [系统备份与监控](系统备份与监控/)                    |                    ——                    | 原创   |
+| ├ [数据库备份与恢复](系统备份与监控/数据库备份与恢复.md)        |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
 
 
 ## 项目贡献
@@ -44,7 +45,7 @@
 2. 如果对Git和GitHub的使用流程比较熟悉，也可以在Issues中申请加入我们Organization的Members，这样就可以无需Fork而可以直接向本项目Push内容。
 3. 我们的文档分为原创和翻译。对于原创，您可以在文档中注明作者或链接。对于翻译，参与前请优先阅读[翻译流程约定](官方教程翻译/翻译流程约定.md)
 
-## NodeBB官方连接索引
+## NodeBB官方链接索引
 
 * [NodeBB GitHub](https://github.com/NodeBB/NodeBB)
 * [官方论坛](https://community.nodebb.org/)
