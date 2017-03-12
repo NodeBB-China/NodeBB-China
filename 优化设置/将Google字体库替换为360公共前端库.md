@@ -1,4 +1,11 @@
+### 2017-2-26 日更新：
+
+360前端团队已于2016年12月7日[重新启动了前端静态资源库服务](http://wangzhan.360.com/notice/detail/10005)，请前往[360 前端静态资源库](https://cdn.baomitu.com/index/fonts)页面，但是感觉不如以前好用了。
+
+---
+
 #注意，由于360公共前端库已经停止服务，所以本教程作废。另外经过测试发现Google字体库的中国区服务器位于北京和上海，访问速度非常快，已经没必要再换其他字体库了。
+
 >关于Google字体库的测试说明参见我写的知乎问答：https://www.zhihu.com/question/24955477/answer/120232550
 
 ---
@@ -23,7 +30,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
 
 >* 将Google免费字体库的域名 fonts.googleapis.com 修改为：fonts.useso.com 即可，如下所示：
- 
+
 	<link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
 
 ##重启NodeBB
