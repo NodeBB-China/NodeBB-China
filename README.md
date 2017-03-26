@@ -34,7 +34,7 @@
 | － [安装教程](安装教程/)                          |                    ——                    |      |
 | ├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS+NodeBB+MongoDB.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
 | ├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS+NodeBB+Redis.md) | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
-| ├ [NodeBB安装（Ubuntu / Debian）](安装教程/Ubuntu-Debian%2BNodeBB%2BMongoDB-Redis) | [@NodeBB-CN](https://www.nodebb-cn.org) | 原创   |
+| ├ [NodeBB安装（Ubuntu / Debian）](安装教程/Ubuntu-Debian%2BNodeBB%2BMongoDB-Redis.md) | [@NodeBB-CN](https://www.nodebb-cn.org) | 原创   |
 | － [优化设置](优化设置/)                          |                    ——                    | 原创   |
 | ├ [设置 widgets](优化设置/设置widgets.md)        | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
 | ├ [将 Google 字体库替换为 360 公共前端库](优化设置/将Google字体库替换为360公共前端库.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
