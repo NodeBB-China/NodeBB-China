@@ -29,12 +29,12 @@
 | 目录                                       |                    作者                    | 类型   |
 | ---------------------------------------- | :--------------------------------------: | ---- |
 | － [安装教程](安装教程/)                          |                    ——                    |      |
-| ├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS + NodeBB + MongoDB.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
-| ├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS + NodeBB + Redis.md) | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
+| ├ [CentOS 系统 + NodeBB + MongoDB](安装教程/CentOS+NodeBB+MongoDB.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
+| ├ [CentOS 系统 + NodeBB + Redis](安装教程/CentOS+NodeBB+Redis.md) | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
 | － [优化设置](优化设置/)                          |                    ——                    | 原创   |
 | ├ [设置 widgets](优化设置/设置widgets.md)        | [@gaokaigithub](https://github.com/gaokaigithub) | 原创   |
 | ├ [将 Google 字体库替换为 360 公共前端库](优化设置/将Google字体库替换为360公共前端库.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
-| ├ [海外 VPS 如何提升 NodeBB 访问速度](优化设置/海外 VPS 如何提升 NodeBB 访问速度.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
+| ├ [海外 VPS 如何提升 NodeBB 访问速度](优化设置/海外VPS如何提升NodeBB访问速度.md) |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
 | － [系统备份与监控](系统备份与监控/)                    |                    ——                    | 原创   |
 | ├ [数据库备份与恢复](系统备份与监控/数据库备份与恢复.md)        |  [@hao-lee](https://github.com/hao-lee)  | 原创   |
 
