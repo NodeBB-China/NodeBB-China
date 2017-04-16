@@ -135,7 +135,7 @@ $ sudo apt-get install -y mongodb-org
 * redis （不推荐大型社区使用）
 可以参考 在CentOS中安装 的数据库配置部分
 ```
-$ sudo apt-get install redis #安装redis
+$ sudo apt-get install redis-server #安装redis
 ```
 ### 2.安装
 #### 2.1 获取 NodeBB 程序
