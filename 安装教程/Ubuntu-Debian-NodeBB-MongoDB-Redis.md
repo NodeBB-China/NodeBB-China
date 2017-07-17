@@ -126,7 +126,7 @@ $ sudo apt-get install -y mongodb-org
 ```
   
 *由于国内可能源不稳定，我们可以使用`http://mirrors.tuna.tsinghua.edu.cn/apt/{ubuntu或者debian}` 来代替上面的官方源*
-   
+> 17.07.17 ADD:阿里源 `http://mirrors.aliyun.com/mongodb/apt/{ubuntu或者debian}` 
    
 **有关如何配置Mongodb数据库，[请点击这里](https://www.nodebb-cn.org/topic/14/nodebb安装实战-配置mongodb)**
   
