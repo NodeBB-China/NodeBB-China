@@ -12,7 +12,7 @@ nodebb 1.5.2版本有两个地方需要更改
 ./src/middleware/header.js #220行
 ./public/src/client/account/settings.js #58行
 ```
-因为是跟皮肤(Skin)关联的，需要下载多个css文件，根据主题个数一个一个下吧😂
+因为是跟皮肤(Skin)关联的，需要下载多个css文件，根据主题个数一个一个下吧😂，我偷懒只下了三个。下载下来之后把第一行的 `@import url("https://fonts.googleapis.com.....`删掉或者替换为中科大的
 
 我的配置如下：
 本地css文件
