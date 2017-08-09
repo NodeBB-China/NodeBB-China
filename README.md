@@ -8,7 +8,9 @@
   
 -----
   
-[NodebBB-CN](https://www.nodebb-cn.org/ "NodeBB中文社区") 这是群内爱好者自发组建的准备替代原论坛的交流社区。（目前正在备案所以暂时无法访问）
+[NodebBB-CN](https://www.nodebb-cn.org/ "NodeBB中文社区") 这是群内爱好者自发组建的准备替代原论坛的交流社区。
+
+> 中文文档已上线(不是官方文档的翻译)：http://docs.nodebb-cn.org 
 ## 正在使用NodeBB的论坛
 
 [萌梦社区](http://qtdream.com/ "萌梦社区")
