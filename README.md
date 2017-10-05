@@ -9,7 +9,7 @@
 在群组提问之前，请先阅读[《提问的智慧》](https://community.nodebb-cn.org/topic/34/%E5%BF%85%E8%AF%BB-%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7-%E8%AF%B7%E5%9C%A8%E6%8F%90%E9%97%AE%E4%B9%8B%E5%89%8D%E4%BB%94%E7%BB%86%E9%98%85%E8%AF%BB)。这是一种礼仪，不合适的提问会遭到大家的鄙视！
 同时，进QQ群后请**不要**私聊群管理，并且贴上大段的代码。十分感谢！
 附:
-* 中文文档：https://doc.nodebb-cn.org
+* 中文文档：https://docs.nodebb-cn.org
 * 英文官方文档： https://docs.nodebb.org
 * NodeBB 英文社区: https://community.nodebb.org
 * NodeBB 中文社区 ：[NodebBB-CN](https://www.nodebb-cn.org/ "NodeBB中文社区") 这是群内爱好者自发组建的准备替代原论坛的交流社区。（**目前已与前社区取得联系，近期将会开展本地化项目！**）
